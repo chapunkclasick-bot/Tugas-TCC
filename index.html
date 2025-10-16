@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BukuKU - Toko Buku Modern</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <a href="#" class="logo">
+            <i class='bx bx-book'></i>
+            <h1>My<span>Book</span></h1>
+        </a>
+
+        <!-- Menu Icon -->
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <!-- Nav List -->
+        <ul class="navbar">
+            <li><a href="#home" class="nav-link active">Beranda</a></li>
+            <li><a href="#categories" class="nav-link">Kategori</a></li>
+            <li><a href="#products" class="nav-link">Buku Terbaru</a></li>
+            <li><a href="#about" class="nav-link">Tentang Kami</a></li>
+            <li><a href="#editor" class="nav-link">Edit Foto</a></li>
+        </ul>
+
+        <!-- Profile -->
+        <div class="profile">
+            <img src="images/fahru.jpg" alt="Profile">
+            <span>Fahru Ramadhan</span>
+            <i class="bx bx-caret-down"></i>
+        </div>
+    </header>
+
+    <!-- Home -->
+    <section class="home swiper" id="home">
+        <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide container">
+                <div class="home-text">
+                    <span>by BukuKU</span>
+                    <h1>Temukan Dunia Baru<br>Melalui Halaman Buku</h1>
+                    <p>Jelajahi koleksi buku terbaru dan terpopuler dengan harga terjangkau. Dapatkan pengalaman membaca yang tak terlupakan.</p>
+                    <a href="#products" class="btn">Jelajahi Buku <i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                <div class="home-image">
+                    <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Buku">
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="swiper-slide container">
+                <div class="home-text">
+                    <span>by BukuKU</span>
+                    <h1>Koleksi Buku Terlengkap<br>Untuk Semua Usia</h1>
+                    <p>Dari fiksi hingga non-fiksi, buku anak hingga ensiklopedia. Semua ada di BukuKU.</p>
+                    <a href="#categories" class="btn">Lihat Kategori <i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                <div class="home-image">
+                    <img src="images/s2.webp" alt="Buku">
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="swiper-slide container">
+                <div class="home-text">
+                    <span>by BukuKU</span>
+                    <h1>Promo Spesial<br>Diskon Hingga 50%</h1>
+                    <p>Dapatkan buku favorit Anda dengan harga terbaik. Penawaran terbatas!</p>
+                    <a href="#products" class="btn">Belanja Sekarang <i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                <div class="home-image">
+                    <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Buku">
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories" id="categories">
+        <div class="heading">
+            <h1>Jelajahi Kategori <br><span>Buku</span></h1>
+            <a href="#" class="btn">Lihat Semua <i class='bx bx-right-arrow-alt'></i></a>
+        </div>
+
+        <!-- Container Content -->
+        <div class="categories-container">
+            <!-- Box 1 -->
+            <div class="box box1">
+                <img src="https://cdn-icons-png.flaticon.com/512/2232/2232688.png" alt="Fiksi">
+                <h2>Fiksi</h2>
+                <span>250 buku</span>
+            </div>
+            <!-- Box 2 -->
+            <div class="box box2">
+                <img src="https://cdn-icons-png.flaticon.com/512/2232/2232672.png" alt="Non-Fiksi">
+                <h2>Non-Fiksi</h2>
+                <span>180 buku</span>
+            </div>
+            <!-- Box 3 -->
+            <div class="box box3">
+                <img src="https://cdn-icons-png.flaticon.com/512/2232/2232683.png" alt="Anak-anak">
+                <h2>Anak-anak</h2>
+                <span>120 buku</span>
+            </div>
+            <!-- Box 4 -->
+            <div class="box box4">
+                <img src="https://cdn-icons-png.flaticon.com/512/2232/2232656.png" alt="Pendidikan">
+                <h2>Pendidikan</h2>
+                <span>95 buku</span>
+            </div>
+            <!-- Box 5 -->
+            <div class="box box5">
+                <img src="https://cdn-icons-png.flaticon.com/512/2232/2232665.png" alt="Komik">
+                <h2>Komik & Manga</h2>
+                <span>210 buku</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products -->
+    <section class="products" id="products">
+        <div class="heading">
+            <h1>Buku Terpopuler <br><span>Kami</span></h1>
+            <a href="#" class="btn">Lihat Semua <i class='bx bx-right-arrow-alt'></i></a>
+        </div>
+        <!-- Product Content -->
+        <div class="product-container">
+            <!-- Box 1 -->
+            <div class="box">
+                <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Buku">
+                <span>Fiksi</span>
+                <h2>Laut Bercerita</h2>
+                <h3 class="price">Rp85.000 <span>Rp95.000</span></h3>
+                <i class='bx bx-cart-alt'></i>
+                <i class='bx bx-heart'></i>
+                <span class="discount">-15%</span>
+            </div>
+            <!-- Box 2 -->
+            <div class="box">
+                <img src="https://images.unsplash.com/photo-1532012197267-da84d127e765?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Buku">
+                <span>Non-Fiksi</span>
+                <h2>Atomic Habits</h2>
+                <h3 class="price">Rp92.000 <span>Rp110.000</span></h3>
+                <i class='bx bx-cart-alt'></i>
+                <i class='bx bx-heart'></i>
+                <span class="discount">-20%</span>
+            </div>
+            <!-- Box 3 -->
+            <div class="box">
+                <img src="https://images.unsplash.com/photo-1589998059171-988d887df646?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Buku">
+                <span>Anak-anak</span>
+                <h2>Kisah Si Kancil</h2>
+                <h3 class="price">Rp45.000 <span>Rp55.000</span></h3>
+                <i class='bx bx-cart-alt'></i>
+                <i class='bx bx-heart'></i>
+                <span class="discount">-25%</span>
+            </div>
+            <!-- Box 4 -->
+            <div class="box">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Buku">
+                <span>Pendidikan</span>
+                <h2>Matematika Dasar</h2>
+                <h3 class="price">Rp75.000 <span>Rp85.000</span></h3>
+                <i class='bx bx-cart-alt'></i>
+                <i class='bx bx-heart'></i>
+                <span class="discount">-15%</span>
+            </div>
+            <!-- Box 5 -->
+            <div class="box">
+                <img src="https://images.unsplash.com/photo-1629992101753-56d196c8aabb?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Buku">
+                <span>Komik</span>
+                <h2>One Piece Vol. 98</h2>
+                <h3 class="price">Rp35.000 <span>Rp40.000</span></h3>
+                <i class='bx bx-cart-alt'></i>
+                <i class='bx bx-heart'></i>
+                <span class="discount">-15%</span>
+            </div>
+            <!-- Box 6 -->
+            <div class="box">
+                <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Buku">
+                <span>Fiksi</span>
+                <h2>Bumi Manusia</h2>
+                <h3 class="price">Rp78.000 <span>Rp88.000</span></h3>
+                <i class='bx bx-cart-alt'></i>
+                <i class='bx bx-heart'></i>
+                <span class="discount">-12%</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Tentang Kami">
+        <div class="about-text">
+            <span>Tentang Kami</span>
+            <h2>BukuKU - Gerbang Ilmu Pengetahuan</h2>
+            <p>BukuKU hadir sebagai solusi belanja buku online yang praktis dan terjangkau. Kami berkomitmen menyediakan buku-buku berkualitas dengan pelayanan yang ramah dan cepat. Setiap hari, kami memastikan stok terbaru tersedia untuk memenuhi kebutuhan pelanggan setia kami.</p>
+            <p>Sejak berdiri tahun 2020, BukuKU terus berkembang menjadi mitra belanja tepercaya bagi pecinta buku di Indonesia. Dengan jaringan penerbit lokal yang kuat, kami bangga bisa mendukung industri perbukuan sekaligus memberikan harga terbaik untuk konsumen.</p>
+            <a href="#" class="btn">Pelajari Selengkapnya <i class='bx bx-right-arrow-alt'></i></a>
+        </div>
+    </section>
+
+    <!-- Photo Editor -->
+    <section class="photo-editor" id="editor">
+        <div class="editor-container">
+            <div class="heading">
+                <h1>Edit Foto Sampul Buku <br><span>Anda</span></h1>
+                <p>Unggah dan edit foto sampul buku Anda dengan mudah</p>
+            </div>
+            
+            <div class="editor-content">
+                <div class="editor-preview">
+                    <img id="preview-image" src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Preview">
+                    <input type="file" id="upload-input" accept="image/*" style="display: none;">
+                    <button class="btn" id="upload-btn">Unggah Foto</button>
+                </div>
+                
+                <div class="editor-controls">
+                    <div class="control-group">
+                        <h3>Kecerahan</h3>
+                        <div class="slider-container">
+                            <input type="range" id="brightness" min="0" max="200" value="100">
+                            <span id="brightness-value">100%</span>
+                        </div>
+                    </div>
+                    
+                    <div class="control-group">
+                        <h3>Kontras</h3>
+                        <div class="slider-container">
+                            <input type="range" id="contrast" min="0" max="200" value="100">
+                            <span id="contrast-value">100%</span>
+                        </div>
+                    </div>
+                    
+                    <div class="control-group">
+                        <h3>Filter</h3>
+                        <div class="filter-buttons">
+                            <button class="filter-btn" data-filter="none">Normal</button>
+                            <button class="filter-btn" data-filter="grayscale(100%)">Grayscale</button>
+                            <button class="filter-btn" data-filter="sepia(100%)">Sepia</button>
+                            <button class="filter-btn" data-filter="invert(100%)">Invert</button>
+                            <button class="filter-btn" data-filter="hue-rotate(90deg)">Hue Rotate</button>
+                            <button class="filter-btn" data-filter="blur(2px)">Blur</button>
+                        </div>
+                    </div>
+                    
+                    <div class="editor-actions">
+                        <button class="btn btn-save" id="save-btn">Simpan Gambar</button>
+                        <button class="btn btn-reset" id="reset-btn">Reset</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customers -->
+    <section class="customers" id="customers">
+        <h2>Testimoni Pelanggan</h2>
+        <div class="customers-container">
+            <!-- Review 1 -->
+            <div class="box">
+                <i class='bx bxs-quote-alt-left'></i>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <p>Belanja di BukuKU selalu menyenangkan! Buku-bukunya lengkap, pengiriman cepat, dan harganya terjangkau. Sudah langganan sejak 2021.</p>
+                <div class="review-profile">
+                    <img src="https://i.pravatar.cc/150?img=5" alt="Pelanggan">
+                    <h3>Sarah Wijaya</h3>
+                </div>
+            </div>
+            <!-- Review 2 -->
+            <div class="box">
+                <i class='bx bxs-quote-alt-left'></i>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>Pelayanan sangat memuaskan! Buku yang saya pesan sampai dalam kondisi baik dan tepat waktu. Recommended banget!</p>
+                <div class="review-profile">
+                    <img src="https://i.pravatar.cc/150?img=11" alt="Pelanggan">
+                    <h3>Budi Santoso</h3>
+                </div>
+            </div>
+            <!-- Review 3 -->
+            <div class="box">
+                <i class='bx bxs-quote-alt-left'></i>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>Koleksi bukunya sangat lengkap, dari buku anak sampai ensiklopedia. Anak-anak saya senang sekali belanja buku di sini.</p>
+                <div class="review-profile">
+                    <img src="https://i.pravatar.cc/150?img=8" alt="Pelanggan">
+                    <h3>Dewi Lestari</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-box">
+                <a href="#" class="logo">
+                    <i class='bx bx-book'></i>
+                    <h1>My<span>Book</span></h1>
+                </a>
+                <p>Jl. Buku No. 123, Jakarta Selatan<br>Indonesia 12345</p>
+                <div class="social">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-youtube'></i></a>
+                </div>
+            </div>
+            <div class="footer-box">
+                <h2>Kategori Buku</h2>
+                <a href="#">Fiksi</a>
+                <a href="#">Non-Fiksi</a>
+                <a href="#">Buku Anak</a>
+                <a href="#">Komik & Manga</a>
+                <a href="#">Pendidikan</a>
+            </div>
+            <div class="footer-box">
+                <h2>Tautan Cepat</h2>
+                <a href="#">Tentang Kami</a>
+                <a href="#">Kontak</a>
+                <a href="#">Blog</a>
+                <a href="#">Kebijakan Privasi</a>
+                <a href="#">Syarat & Ketentuan</a>
+            </div>
+            <div class="footer-box newsletter">
+                <h2>Buletin</h2>
+                <p>Dapatkan informasi promo dan buku terbaru dengan berlangganan buletin kami.</p>
+                <form>
+                    <input type="email" placeholder="Masukkan email Anda" required>
+                    <button type="submit"><i class='bx bx-send'></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 BukuKU. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+    <!-- Login Modal -->
+<div class="login-modal" id="login-modal">
+    <div class="login-container">
+        <div class="login-close" id="login-close">
+            <i class='bx bx-x'></i>
+        </div>
+        
+        <div class="login-content">
+            <div class="login-image">
+                <img src="images/login-books.jpg" alt="Login Books">
+                <div class="login-overlay">
+                    <h2>Selamat Datang di BukuKU</h2>
+                    <p>Masuk untuk menjelajahi dunia literasi yang tak terbatas</p>
+                </div>
+            </div>
+            
+            <div class="login-form">
+                <div class="login-header">
+                    <h2>Masuk ke Akun Anda</h2>
+                    <p>Silakan masuk untuk melanjutkan</p>
+                </div>
+                
+                <form class="login-form-content" id="login-form">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <div class="input-group">
+                            <i class='bx bx-envelope'></i>
+                            <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <div class="input-group">
+                            <i class='bx bx-lock-alt'></i>
+                            <input type="password" id="password" name="password" placeholder="Masukkan password Anda" required>
+                            <button type="button" class="toggle-password" id="toggle-password">
+                                <i class='bx bx-hide'></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="form-options">
+                        <label class="remember-me">
+                            <input type="checkbox" id="remember">
+                            <span class="checkmark"></span>
+                            Ingat saya
+                        </label>
+                        <a href="#" class="forgot-password">Lupa password?</a>
+                    </div>
+                    
+                    <button type="submit" class="login-btn">
+                        <span>Masuk</span>
+                        <i class='bx bx-log-in'></i>
+                    </button>
+                    
+                    <div class="login-divider">
+                        <span>atau masuk dengan</span>
+                    </div>
+                    
+                    <div class="social-login">
+                        <button type="button" class="social-btn google-btn">
+                            <i class='bx bxl-google'></i>
+                            Google
+                        </button>
+                        <button type="button" class="social-btn facebook-btn">
+                            <i class='bx bxl-facebook'></i>
+                            Facebook
+                        </button>
+                    </div>
+                    
+                    <div class="login-footer">
+                        <p>Belum punya akun? <a href="#" id="show-register">Daftar di sini</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Register Modal -->
+<div class="login-modal" id="register-modal">
+    <div class="login-container">
+        <div class="login-close" id="register-close">
+            <i class='bx bx-x'></i>
+        </div>
+        
+        <div class="login-content">
+            <div class="login-image">
+                <img src="images/register-books.jpg" alt="Register Books">
+                <div class="login-overlay">
+                    <h2>Bergabung dengan BukuKU</h2>
+                    <p>Daftar sekarang dan dapatkan akses ke koleksi buku terbaik</p>
+                </div>
+            </div>
+            
+            <div class="login-form">
+                <div class="login-header">
+                    <h2>Buat Akun Baru</h2>
+                    <p>Isi data diri Anda untuk mendaftar</p>
+                </div>
+                
+                <form class="login-form-content" id="register-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="first-name">Nama Depan</label>
+                            <div class="input-group">
+                                <i class='bx bx-user'></i>
+                                <input type="text" id="first-name" name="first-name" placeholder="Nama depan" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="last-name">Nama Belakang</label>
+                            <div class="input-group">
+                                <i class='bx bx-user'></i>
+                                <input type="text" id="last-name" name="last-name" placeholder="Nama belakang" required>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="reg-email">Email</label>
+                        <div class="input-group">
+                            <i class='bx bx-envelope'></i>
+                            <input type="email" id="reg-email" name="email" placeholder="Masukkan email Anda" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="reg-password">Password</label>
+                        <div class="input-group">
+                            <i class='bx bx-lock-alt'></i>
+                            <input type="password" id="reg-password" name="password" placeholder="Buat password" required>
+                            <button type="button" class="toggle-password" id="toggle-reg-password">
+                                <i class='bx bx-hide'></i>
+                            </button>
+                        </div>
+                        <div class="password-strength">
+                            <div class="strength-bar">
+                                <div class="strength-fill" id="strength-fill"></div>
+                            </div>
+                            <span class="strength-text" id="strength-text">Kekuatan password</span>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="confirm-password">Konfirmasi Password</label>
+                        <div class="input-group">
+                            <i class='bx bx-lock-alt'></i>
+                            <input type="password" id="confirm-password" name="confirm-password" placeholder="Konfirmasi password" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-options">
+                        <label class="remember-me">
+                            <input type="checkbox" id="agree-terms" required>
+                            <span class="checkmark"></span>
+                            Saya setuju dengan <a href="#">Syarat & Ketentuan</a> dan <a href="#">Kebijakan Privasi</a>
+                        </label>
+                    </div>
+                    
+                    <button type="submit" class="login-btn">
+                        <span>Daftar</span>
+                        <i class='bx bx-user-plus'></i>
+                    </button>
+                    
+                    <div class="login-footer">
+                        <p>Sudah punya akun? <a href="#" id="show-login">Masuk di sini</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
